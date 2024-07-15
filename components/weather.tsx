@@ -24,7 +24,7 @@ export default function Weather() {
             }
             setWeather(data);
         } catch (error) {
-            setError(error.message);
+            console.log(error)
         }
     };
     const handleChange = (e: any) => {
